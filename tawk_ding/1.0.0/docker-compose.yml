@@ -1,0 +1,15 @@
+version: '3'
+services:
+  tawk_ding: 
+    build:
+      context: app
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)
+    stop_signal: SIGINT
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:8000
+    restart: always
+    environment:
+      - TAWK_DINGDING_URL=${TAWK_DINGDING_URL}
+      - TAWK_DINGDING_SIGN=${TAWK_DINGDING_SIGN}
+      - TAWK_DINGDING_PORT=${PANEL_APP_PORT_HTTP}

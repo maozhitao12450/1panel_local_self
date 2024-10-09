@@ -1,0 +1,26 @@
+additionalProperties:
+  formFields:
+    - default: 8000
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+
+    - default: "https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxxxxxxxxxx"
+      edit: true
+      envKey: TAWK_DINGDING_URL
+      labelEn: dingding web hook url
+      labelZh: 钉钉wehook链接
+      required: true
+      type: text
+
+    - default: "label your set at dingding "
+      edit: true
+      envKey: TAWK_DINGDING_SIGN
+      labelEn: Customize keywords
+      labelZh: 自定义关键词
+      required: true
+      type: text

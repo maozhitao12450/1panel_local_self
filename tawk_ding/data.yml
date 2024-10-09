@@ -1,0 +1,13 @@
+additionalProperties:
+  key: tawk_ding
+  name: tawk_ding
+  tags:
+    - Too
+  shortDescZh: 链接tawk和钉钉的webhook
+  shortDescEn: link tawk and dingding webhook
+  type: tool  
+  crossVersionUpdate:  true
+  limit:  0
+  website: http://458582271.xyz
+  github: http://458582271.xyz
+  document: http://458582271.xyz
