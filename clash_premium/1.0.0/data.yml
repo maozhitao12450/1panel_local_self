@@ -1,0 +1,19 @@
+additionalProperties:
+  formFields:
+    - default: 9090
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Rest api Port
+      labelZh: Rest api 端口
+      required: true
+      rule: paramPort
+      type: number
+
+    - default: 7890
+      edit: true
+      envKey: CLASH_PROXY_PORT
+      labelEn: PROXY PORT
+      labelZh: 代理端口
+      required: true
+      rule: paramPort
+      type: number

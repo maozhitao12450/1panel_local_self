@@ -1,0 +1,13 @@
+additionalProperties:
+  key: clash_premium
+  name: clash premium
+  tags:
+    - Too
+  shortDescZh: 启动clash以支持指定的网页走代理
+  shortDescEn: start clash to support specified web pages
+  type: tool  
+  crossVersionUpdate:  true
+  limit:  0
+  website: http://458582271.xyz
+  github: http://458582271.xyz
+  document: http://458582271.xyz
